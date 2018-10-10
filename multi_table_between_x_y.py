@@ -1,3 +1,4 @@
+import time
 m = int(input("enter nm 1: "))
 n = int(input("enter nm 2: "))
 
@@ -10,5 +11,6 @@ for inputs in range(m, n+1):
             print(inputs*factor, end=", ")
         else:
             print(inputs*factor, end="\n")
+time.sleep(180)
 
 print()

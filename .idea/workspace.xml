@@ -3,7 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="2546f860-69ad-407b-aa80-2cc81f1aa9bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi table between x_y.py" beforeDir="false" afterPath="$PROJECT_DIR$/multi table between x_y.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/multi table between x_y.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,52 +15,45 @@
     <session id="1886047477">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.6" value="1" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="12" />
+          <entry key="py" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="12" />
+          <entry key="Python" value="13" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="267" />
-          <entry key="py" value="220" />
+          <entry key="py" value="248" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="267" />
-          <entry key="Python" value="220" />
+          <entry key="Python" value="248" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/multi table for x.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
-            </state>
-          </provider>
-        </entry>
-      </file>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/multi table between x_y.py">
+        <entry file="file://$PROJECT_DIR$/multi_table_between_x_y.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+            <state relative-caret-position="204">
+              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
             </state>
           </provider>
         </entry>
@@ -76,6 +69,7 @@
         <option value="$PROJECT_DIR$/experimentus maximus.py" />
         <option value="$PROJECT_DIR$/triple multiplicator.py" />
         <option value="$PROJECT_DIR$/multi table between x_y.py" />
+        <option value="$PROJECT_DIR$/multi_table_between_x_y.py" />
       </list>
     </option>
   </component>
@@ -108,6 +102,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\trash" />
     </key>
@@ -124,7 +121,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multi table between x_y">
+  <component name="RunManager" selected="Python.multi_table_between_x_y">
     <configuration name="experimentus maximus" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -159,6 +156,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi table between x_y.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="multi_table_between_x_y" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programmering-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_table_between_x_y.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,9 +232,11 @@
       <item itemvalue="Python.uppgift1" />
       <item itemvalue="Python.experimentus maximus" />
       <item itemvalue="Python.multi table between x_y" />
+      <item itemvalue="Python.multi_table_between_x_y" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.multi_table_between_x_y" />
         <item itemvalue="Python.multi table between x_y" />
         <item itemvalue="Python.experimentus maximus" />
         <item itemvalue="Python.uppgift2" />
@@ -239,6 +259,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
@@ -249,7 +270,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3276923" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3276923" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -280,13 +301,6 @@
     <entry file="file://$PROJECT_DIR$/loops.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi table for x.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="4" selection-start-line="4" selection-start-column="4" selection-end-line="4" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/experimentus maximus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
@@ -296,8 +310,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/multi table between x_y.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" column="18" selection-start-line="7" selection-start-column="18" selection-end-line="7" selection-end-column="18" />
+        <state relative-caret-position="238">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi table for x.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/multi_table_between_x_y.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
         </state>
       </provider>
     </entry>
