@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="2546f860-69ad-407b-aa80-2cc81f1aa9bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/multi table between x_y.py" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -15,34 +14,35 @@
     <session id="1886047477">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="4" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.open.time.6" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="5" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="13" />
+          <entry key="py" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="13" />
+          <entry key="Python" value="15" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="267" />
-          <entry key="py" value="248" />
+          <entry key="py" value="1804" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="267" />
-          <entry key="Python" value="248" />
+          <entry key="Python" value="1804" />
         </counts>
       </usages-collector>
     </session>
@@ -50,15 +50,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/multi_table_between_x_y.py">
+        <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+            <state relative-caret-position="17">
+              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -70,14 +77,19 @@
         <option value="$PROJECT_DIR$/triple multiplicator.py" />
         <option value="$PROJECT_DIR$/multi table between x_y.py" />
         <option value="$PROJECT_DIR$/multi_table_between_x_y.py" />
+        <option value="$PROJECT_DIR$/inlämningar/dice.py" />
+        <option value="$PROJECT_DIR$/inlämningar/dice/dice.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="233" />
-    <option name="y" value="-21" />
-    <option name="width" value="1378" />
-    <option name="height" value="773" />
+    <option name="x" value="284" />
+    <option name="y" value="-17" />
+    <option name="width" value="926" />
+    <option name="height" value="610" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -91,6 +103,17 @@
             <path>
               <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
+              <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
+              <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
+              <item name="dice" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -121,7 +144,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.multi_table_between_x_y">
+  <component name="RunManager" selected="Python.dice">
+    <configuration name="dice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programmering-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar/dice" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/dice/dice.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="experimentus maximus" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -185,27 +229,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uppgift1" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="programmering-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\inlämningar\uppg.1 kalkylator med alla räknesätt (hardlocked).py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="uppgift2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -229,18 +252,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.uppgift2" />
-      <item itemvalue="Python.uppgift1" />
       <item itemvalue="Python.experimentus maximus" />
       <item itemvalue="Python.multi table between x_y" />
       <item itemvalue="Python.multi_table_between_x_y" />
+      <item itemvalue="Python.dice" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dice" />
         <item itemvalue="Python.multi_table_between_x_y" />
         <item itemvalue="Python.multi table between x_y" />
         <item itemvalue="Python.experimentus maximus" />
         <item itemvalue="Python.uppgift2" />
-        <item itemvalue="Python.uppgift1" />
       </list>
     </recent_temporary>
   </component>
@@ -308,13 +331,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi table between x_y.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/multi table between x_y.py" />
     <entry file="file://$PROJECT_DIR$/multi table for x.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -322,10 +339,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
+          <folding>
+            <element signature="e#0#6#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/multi_table_between_x_y.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="42" lean-forward="true" selection-start-line="12" selection-start-column="42" selection-end-line="12" selection-end-column="42" />
+        <state relative-caret-position="272">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
         </state>
       </provider>
     </entry>
