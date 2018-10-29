@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2546f860-69ad-407b-aa80-2cc81f1aa9bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/programmering-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/programmering-1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -46,14 +47,69 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-106336299">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="2" />
+          <entry key="project.open.time.2" value="2" />
+          <entry key="project.opened" value="2" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="py" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="Python" value="7" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="110" />
+          <entry key="py" value="3611" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="110" />
+          <entry key="Python" value="3611" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice.py">
+        <entry file="file://$PROJECT_DIR$/gui experimentation/Binding functions to buttons.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="17">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state relative-caret-position="51">
+              <caret line="3" column="30" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="30" />
+              <folding>
+                <marker date="1540763114129" expanded="true" signature="108:225" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui experimentation/Binds to different functions.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+              <folding>
+                <marker date="1540766049416" expanded="true" signature="200:330" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/gui experimentation/gui5.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="102">
+              <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -79,6 +135,14 @@
         <option value="$PROJECT_DIR$/multi_table_between_x_y.py" />
         <option value="$PROJECT_DIR$/inlämningar/dice.py" />
         <option value="$PROJECT_DIR$/inlämningar/dice/dice.py" />
+        <option value="$PROJECT_DIR$/gui.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/gui2.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/Login Form.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/gui3.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/Binds to different functions.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/gui4.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/buttons with class.py" />
+        <option value="$PROJECT_DIR$/gui experimentation/gui5.py" />
       </list>
     </option>
   </component>
@@ -96,7 +160,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -107,29 +170,26 @@
             <path>
               <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
-              <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
-              <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
-              <item name="dice" type="462c0819:PsiDirectoryNode" />
+              <item name="gui experimentation" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="B:\Documents\programmering-1\gui experimentation" />
+      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\trash" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\trash" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -144,8 +204,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.dice">
-    <configuration name="dice" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.gui5">
+    <configuration name="Binds to different functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -153,11 +213,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar/dice" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/dice/dice.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui experimentation/Binds to different functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -166,7 +226,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="experimentus maximus" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gui2" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -174,11 +234,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/experimentus maximus.py" />
+      <option name="SCRIPT_NAME" value="B:\Documents\programmering-1\gui experimentation\Binding functions to buttons.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -187,7 +247,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi table between x_y" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gui3" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -195,11 +255,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi table between x_y.py" />
+      <option name="SCRIPT_NAME" value="B:\Documents\programmering-1\gui experimentation\Binds to different functions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -208,7 +268,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi_table_between_x_y" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gui4" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -216,11 +276,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_table_between_x_y.py" />
+      <option name="SCRIPT_NAME" value="B:\Documents\programmering-1\gui experimentation\buttons with class.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -229,7 +289,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uppgift2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="gui5" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -237,11 +297,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\inlämningar\uppg.2 kalkylator med alla räknesätt.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui experimentation/gui5.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -251,19 +311,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.uppgift2" />
-      <item itemvalue="Python.experimentus maximus" />
-      <item itemvalue="Python.multi table between x_y" />
-      <item itemvalue="Python.multi_table_between_x_y" />
-      <item itemvalue="Python.dice" />
+      <item itemvalue="Python.gui2" />
+      <item itemvalue="Python.gui3" />
+      <item itemvalue="Python.gui4" />
+      <item itemvalue="Python.Binds to different functions" />
+      <item itemvalue="Python.gui5" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.dice" />
-        <item itemvalue="Python.multi_table_between_x_y" />
-        <item itemvalue="Python.multi table between x_y" />
-        <item itemvalue="Python.experimentus maximus" />
-        <item itemvalue="Python.uppgift2" />
+        <item itemvalue="Python.gui5" />
+        <item itemvalue="Python.gui4" />
+        <item itemvalue="Python.Binds to different functions" />
+        <item itemvalue="Python.gui3" />
+        <item itemvalue="Python.gui2" />
       </list>
     </recent_temporary>
   </component>
@@ -281,26 +341,28 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.25" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.18914647" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3276923" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5191898" side_tool="true" weight="0.30793992" />
       <window_info anchor="bottom" id="Python Console" order="2" />
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" weight="0.3276923" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48081023" weight="0.30793992" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="R Packages" order="0" />
+      <window_info anchor="right" id="R Graphics" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
   </component>
   <component name="VcsContentAnnotationSettings">
@@ -339,16 +401,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" lean-forward="true" selection-start-line="3" selection-end-line="3" />
-          <folding>
-            <element signature="e#0#6#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice.py" />
     <entry file="file://$PROJECT_DIR$/multi_table_between_x_y.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="272">
@@ -358,8 +411,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+        <state relative-caret-position="425">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui experimentation/Login Form.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="22" lean-forward="true" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui experimentation/buttons with class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="14" lean-forward="true" selection-start-line="22" selection-start-column="14" selection-end-line="22" selection-end-column="14" />
+          <folding>
+            <marker date="1540770150138" expanded="true" signature="35:438" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui experimentation/gui5.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="7" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui experimentation/Binds to different functions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="15" lean-forward="true" selection-start-line="19" selection-start-column="15" selection-end-line="19" selection-end-column="15" />
+          <folding>
+            <marker date="1540766049416" expanded="true" signature="200:330" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gui experimentation/Binding functions to buttons.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="30" selection-start-line="3" selection-start-column="12" selection-end-line="3" selection-end-column="30" />
+          <folding>
+            <marker date="1540763114129" expanded="true" signature="108:225" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
