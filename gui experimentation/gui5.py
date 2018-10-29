@@ -1,7 +1,13 @@
-greeting = "Hello"
-first = "Anton"
-last = "Lundmark"
+from tkinter import *
 
-message = f"{greeting}, {first} {last}. Nice to have you!"
+root = Tk()
+root.minsize(720, 480)
+root.title("Toastmeister v2004")
 
-print(message)
+
+
+btnquit = Button(root, text="Quit")
+btnquit.pack(side=LEFT)
+
+
+root.mainloop()
