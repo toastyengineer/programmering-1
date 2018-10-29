@@ -2,7 +2,6 @@ from tkinter import *
 
 root = Tk()
 root.title("Toastmeister v2001")
-root.minsize(720, 480)
 
 label_1 = Label(root, text="Name: ")
 label_2 = Label(root, text="Password: ")
