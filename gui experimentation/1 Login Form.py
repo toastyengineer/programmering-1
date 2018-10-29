@@ -1,19 +1,37 @@
 from tkinter import *
+import tkinter.messagebox
+
+#Confirm on exit
+
+
+def confirm_exit():
+    answer = tkinter.messagebox.askquestion("Info", "Are you sure you want to cancel?")
+    if answer == "yes":
+        exit()
+
 
 root = Tk()
-root.title("Toastmeister v2001")
+root.title("PK")
+#Username and Password label
+user = Label(root, text="Username: ")
+user.grid(row=0, sticky=E)
+password = Label(root, text="Password: ")
+password.grid(row=1, sticky=E)
 
-label_1 = Label(root, text="Name: ")
-label_2 = Label(root, text="Password: ")
-entry_1 = Entry(root)
-entry_2 = Entry(root)
+#Username and Password entries
+entry_user = Entry(root)
+entry_user.grid(row=0, column=1)
+entry_pass = Entry(root)
+entry_pass.grid(row=1, column=1)
 
-label_1.grid(row=0, sticky=E)
-label_2.grid(row=1, sticky=E)
-entry_1.grid(row=0, column=1)
-entry_2.grid(row=1, column=1)
+#Checkbox
+c = Checkbutton(root, text="Keep me logged in")
+c.grid(row=2, columnspan=2)
 
-c = Checkbutton(root, text="Keep me logged in: ")
-c.grid(columnspan=2)
+#Buttons
+login = Button(root, text="Login")
+login.grid(row=3, column=1, pady=5, padx=10, sticky=E)
+cancel = Button(root, text="Cancel", command=confirm_exit)
+cancel.grid(row=3, column=0)
 
 root.mainloop()
