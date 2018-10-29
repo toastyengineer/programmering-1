@@ -1,12 +1,25 @@
-m = int(input("enter nm 1: "))
-n = int(input("enter nm 2: "))
+
+def bill(people, meals, drinks):
+    meals = people * meals * 70
+    drinks = people * drinks * 30
+    total = meals + drinks
+    print(total)
 
 
-for inputs in range(m, n+1):
-    for factor in range(1, 11):
-        if factor < 10:
-            print(inputs*factor, end=", ")
-        else:
-            print(inputs*factor, end="\n")
+def split_bill(total, people):
+    split = total / people
+    print(round(split*1.1, 2))
 
-print()
+
+def concatenate_strings(string1, string2):
+    print(string1 + string2)
+
+
+
+
+
+
+
+#bill(5, 2, 3)
+#split_bill(777, 5)
+#concatenate_strings("jätte","kul")
