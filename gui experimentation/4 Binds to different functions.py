@@ -2,7 +2,7 @@ from tkinter import *
 
 root = Tk()
 root.minsize(720, 480)
-root.title("Toastmeister v2003")
+root.title("Toastmeister v2004")
 
 
 def leftClick(event):

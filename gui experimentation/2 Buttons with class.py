@@ -18,7 +18,7 @@ class yeet:
 
 root = Tk()
 root.minsize(720, 480)
-root.title("Toastmeister v2003")
+root.title("Toastmeister v2002")
 
 b = yeet(root)
 
