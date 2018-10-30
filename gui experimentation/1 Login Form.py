@@ -21,7 +21,7 @@ def log_in():
 
 
 def register():
-    print("Unavailable")
+    tkinter.messagebox.showinfo("Info","Registration is currently unavailable")
 
 
 def checkbox():
