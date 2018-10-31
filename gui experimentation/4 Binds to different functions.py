@@ -5,15 +5,15 @@ root.minsize(720, 480)
 root.title("Toastmeister v2004")
 
 
-def leftClick(event):
+def leftClick(*args):
     print("Left")
 
 
-def middleClick(event):
+def middleClick(*args):
     print("Middle")
 
 
-def rightClick(event):
+def rightClick(*args):
     print("Right")
 
 
