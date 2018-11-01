@@ -1,11 +1,11 @@
 from random import randint
 from tkinter import *
 import tkinter.messagebox
+import webbrowser
 
 
 def calc_func(entered_rolls):
-    wins = 0
-    loss = 0
+    wins, loss = 0, 0
     while entered_rolls > 0:
         dice1 = randint(1, 6)
         dice2 = randint(1, 6)
@@ -26,6 +26,7 @@ def call_calc(*args):
         calc_func(entered_rolls)
     elif entry_roll.get() == "supersecret":
         tkinter.messagebox.showinfo("Wow", "You found an easter egg. Congratulations!")
+        webbrowser.open('https://www.wikihow.com/Make-Pancakes')
     else:
         tkinter.messagebox.showwarning("Error", "Supplied roll amount is not valid input.")
         entry_roll.delete(0, "end")
