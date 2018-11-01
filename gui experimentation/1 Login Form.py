@@ -1,6 +1,7 @@
 from tkinter import *
 import tkinter.messagebox
 
+# Made up login credentials
 user1 = "root"
 pass1 = "password"
 
@@ -13,7 +14,7 @@ def confirm_exit():
 
 def log_in(*args):
     if entry_user.get() == user1 and entry_pass.get() == pass1:
-        if checkbox() == True:
+        if checkbox():
             tkinter.messagebox.showinfo("Info", "Successfully logged in!\nYou will be kept logged in.")
             print("Super mega secure data")
         else:
@@ -27,7 +28,7 @@ def log_in(*args):
 
 
 def register():
-    tkinter.messagebox.showinfo("Info","Registration is currently unavailable")
+    tkinter.messagebox.showinfo("Info", "Registration is currently unavailable")
 
 
 def checkbox():
