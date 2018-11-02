@@ -4,6 +4,7 @@ import tkinter.messagebox
 import webbrowser
 
 
+# Main Function
 def calc_func(entered_rolls):
     wins, loss = 0, 0
     while entered_rolls > 0:
@@ -15,33 +16,37 @@ def calc_func(entered_rolls):
         else:
             loss += 1
         entered_rolls -= 1
-
     percentage = (wins / (wins+loss)) * 100
-    tkinter.messagebox.showinfo("Calculation complete", "Calculated percentage of a roll fulfilling requirements are:\n" + str(round(percentage, 1)) + "%")
+    tkinter.messagebox.showinfo("Calculation complete", "Calculated percentage of a roll fulfilling requirements are:\n" + str(round(percentage, 2)) + "%")
 
 
+# Call Main Function
 def call_calc(*args):
     if entry_roll.get().isdigit():
         entered_rolls = int(entry_roll.get())
         calc_func(entered_rolls)
+    elif entry_roll.get() == "":
+        pass
     elif entry_roll.get() == "supersecret":
         tkinter.messagebox.showinfo("Wow", "You found an easter egg. Congratulations!")
         webbrowser.open('https://www.wikihow.com/Make-Pancakes')
     else:
-        tkinter.messagebox.showwarning("Error", "Supplied roll amount is not valid input.")
+        tkinter.messagebox.showwarning("Error", "Supplied roll amount is not valid input.\n(must be positive integer)")
         entry_roll.delete(0, "end")
 
 
+# Clear Entry Field
 def clearer():
     entry_roll.delete(0, "end")
 
 
+# Confirm on Quit
 def quitter():
     answer = tkinter.messagebox.askquestion("Quit", "Are you sure you want to quit the application?")
     if answer == "yes":
         root.quit()
 
-
+# GUI Loop
 root = Tk()
 root.title("Dice Roller")
 root.resizable(FALSE, FALSE)
@@ -57,8 +62,8 @@ entry_roll.bind("<Return>", call_calc)
 entry_roll.grid(row=1, column=1, sticky=W, pady=5, padx=5)
 rolls = entry_roll.get()
 
-calc_btn = Button(root, text="Calculate", command=call_calc).grid(row=2, column=1, sticky=E, pady=5, padx=5)
 quit_btn = Button(root, text="Quit", command=quitter).grid(row=2, column=0, sticky=W, pady=5, padx=5)
+calc_btn = Button(root, text="Calculate", command=call_calc).grid(row=2, column=1, sticky=E, pady=5, padx=5)
 clear_btn = Button(root, text="Clear entry", command=clearer).grid(row=2, column=1, sticky=W)
 
 root.mainloop()
