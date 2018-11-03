@@ -1,7 +1,5 @@
 from random import randint
 import multiprocessing
-from multiprocessing import Pool
-import time
 
 
 def dice_calc(rolls, q):
@@ -28,44 +26,55 @@ def dice_calc(rolls, q):
     ########
     mutex.release()
 
+
 wins = 0
 loss = 0
-rolls = 1000000
+
 mutex = multiprocessing.Lock()
 
 if __name__ == "__main__":
-    t = time.time()
+
+    rolls = int(input("Enter amount of rolls you would like to do: "))
+
     # #######
     # create a multiprocessing.Queue() instance that spans across Processes
     q = multiprocessing.Queue()
     # #######
 
-    p1 = multiprocessing.Process(target=dice_calc, args=(rolls/4, q))
-    p2 = multiprocessing.Process(target=dice_calc, args=(rolls/4, q))
-    p3 = multiprocessing.Process(target=dice_calc, args=(rolls/4, q))
-    p4 = multiprocessing.Process(target=dice_calc, args=(rolls/4, q))
+    p1 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p2 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p3 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p4 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p5 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p6 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p7 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+    p8 = multiprocessing.Process(target=dice_calc, args=(rolls / 8, q))
+
     p1.start()
     p2.start()
     p3.start()
     p4.start()
+    p5.start()
+    p6.start()
+    p7.start()
+    p8.start()
 
-    ########
-    #Get wins and losses from the queue
-    for _ in range(4):
+    # #######
+    # Get wins and losses from the queue
+    for _ in range(8):
         item = q.get(timeout=5000)
         wins = wins + item[0]
         loss = loss + item[1]
-    ########
+    # #######
 
     p1.join()
     p2.join()
     p3.join()
     p4.join()
+    p5.join()
+    p6.join()
+    p7.join()
+    p8.join()
 
-    print("You got", wins, " wins")
-    print("You got", loss, " losses")
-    print("You got", wins+loss, " in total")
-    percentage = (wins / (wins + loss)) * 100
-    print("Calculated percentage of a roll fulfilling requirements are:", round(percentage, 2), "%")
-
-    print(round((time.time()-t), 3))
+    print(f"You got rolled a total of {wins+loss} times, you got {wins} wins and {loss} losses")
+    print("Calculated percentage of a roll fulfilling requirements are:", round((wins / (wins + loss)) * 100, 2), "%")
