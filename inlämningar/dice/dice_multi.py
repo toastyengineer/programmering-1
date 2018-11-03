@@ -1,5 +1,8 @@
 from random import randint
 import multiprocessing
+import time
+
+t = time.time()
 
 
 def dice_calc(rolls, q):
@@ -34,7 +37,7 @@ mutex = multiprocessing.Lock()
 
 if __name__ == "__main__":
 
-    rolls = int(input("Enter amount of rolls you would like to do: "))
+    rolls = 1000000#int(input("Enter amount of rolls you would like to do: "))
 
     # #######
     # create a multiprocessing.Queue() instance that spans across Processes
@@ -76,5 +79,6 @@ if __name__ == "__main__":
     p7.join()
     p8.join()
 
-    print(f"You got rolled a total of {wins+loss} times, you got {wins} wins and {loss} losses")
-    print("Calculated percentage of a roll fulfilling requirements are:", round((wins / (wins + loss)) * 100, 2), "%")
+    print(f"\nYou rolled a total of {wins+loss} times, you got {wins} wins and {loss} losses.")
+    print(f"Calculated percentage of a roll fulfilling requirements are: {round((wins / (wins + loss)) * 100 , 2)}%\n")
+    print(f"Finished in {round((time.time()-t), 3)} seconds.", end="")
