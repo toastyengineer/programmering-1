@@ -3,16 +3,16 @@ import random
 import sys
 from pygame.locals import *
 
-WINDOWWIDTH = 600
-WINDOWHEIGHT = 600
+WINDOWWIDTH = 1152
+WINDOWHEIGHT = 648
 TEXTCOLOR = (255, 255, 255)
 BACKGROUNDCOLOR = (0, 0, 40)
-FPS = 60
+FPS = 30
 BADDIEMINSIZE = 20
 BADDIEMAXSIZE = 40
-BADDIEMINSPEED = 2
-BADDIEMAXSPEED = 8
-ADDNEWBADDIERATE = 7
+BADDIEMINSPEED = 4
+BADDIEMAXSPEED = 12
+ADDNEWBADDIERATE = 3
 ADDNEWPOWERRATE = 20
 POWERSIZE = 25
 PLAYERMOVERATE = 5
@@ -29,7 +29,7 @@ def waitForPlayerToPressKey():
             if event.type == QUIT:
                 terminate()
             if event.type == KEYDOWN:
-                if event.key == K_ESCAPE: # pressing escape quits
+                if event.key == K_ESCAPE:  # pressing escape quits
                     terminate()
                 return
 
@@ -39,6 +39,7 @@ def playerHasHitBaddie(playerRect, baddies):
         if playerRect.colliderect(b['rect']):
             return True
     return False
+
 
 def playerHasCollectedPowerup(playerRect, power):
     for p in power:
@@ -237,8 +238,6 @@ while True:
 
         if playerHasCollectedPowerup(playerRect, power):
             score += 500
-
-
 
         mainClock.tick(FPS)
 
