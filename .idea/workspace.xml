@@ -3,7 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="2546f860-69ad-407b-aa80-2cc81f1aa9bf" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/experimentus maximus.py" beforeDir="false" afterPath="$PROJECT_DIR$/experimentus maximus.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inlämningar/Dodger/dodger.py" beforeDir="false" afterPath="$PROJECT_DIR$/inlämningar/Dodger/dodger.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inlämningar/Dodger/powerup.mp3" beforeDir="false" afterPath="$PROJECT_DIR$/inlämningar/Dodger/powerup.mp3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/inlämningar/Dodger/powerup.wav" beforeDir="false" afterPath="$PROJECT_DIR$/inlämningar/Dodger/powerup.wav" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,45 +52,45 @@
     <session id="-106336299">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="14" />
+          <entry key="project.closed" value="16" />
           <entry key="project.open.time.2" value="10" />
-          <entry key="project.open.time.3" value="5" />
-          <entry key="project.opened" value="15" />
+          <entry key="project.open.time.3" value="7" />
+          <entry key="project.opened" value="17" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="58" />
+          <entry key="py" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="58" />
+          <entry key="Python" value="59" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="262" />
-          <entry key="py" value="16256" />
+          <entry key="py" value="16885" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="262" />
-          <entry key="Python" value="16256" />
+          <entry key="Python" value="16885" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/experimentus maximus.py">
+        <entry file="file://$PROJECT_DIR$/inlämningar/Dodger/dodger.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret selection-end-line="5" selection-end-column="17" />
+            <state relative-caret-position="17">
+              <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
               <folding>
-                <marker date="1541166327557" expanded="true" signature="24:129" ph="..." />
+                <element signature="e#0#13#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -109,6 +111,11 @@
       <find>10</find>
       <find>main</find>
       <find>blank</find>
+      <find>text</find>
+      <find>game over</find>
+      <find>powerup.</find>
+      <find>playerhashit</find>
+      <find>mouse</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -152,6 +159,7 @@
         <option value="$PROJECT_DIR$/inlämningar/dice/multicore scribble.py" />
         <option value="$PROJECT_DIR$/inlämningar/dice/threading scribble.py" />
         <option value="$PROJECT_DIR$/experimentus maximus.py" />
+        <option value="$PROJECT_DIR$/inlämningar/Dodger/dodger.py" />
       </list>
     </option>
   </component>
@@ -169,7 +177,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -193,10 +200,17 @@
               <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
               <item name="dice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
+              <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
+              <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
+              <item name="Dodger" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -225,28 +239,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.experimentus maximus">
-    <configuration name="2 Buttons with class" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="programmering-1" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/gui experimentation" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/gui experimentation/2 Buttons with class.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python.dodger">
     <configuration name="diceGUI" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -260,6 +253,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/dice/diceGUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="dodger" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programmering-1" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar/Dodger" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/Dodger/dodger.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -333,18 +347,18 @@
     </configuration>
     <list>
       <item itemvalue="Python.diceGUI" />
-      <item itemvalue="Python.2 Buttons with class" />
       <item itemvalue="Python.multicore scribble" />
       <item itemvalue="Python.threading scribble" />
       <item itemvalue="Python.experimentus maximus" />
+      <item itemvalue="Python.dodger" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.dodger" />
         <item itemvalue="Python.experimentus maximus" />
         <item itemvalue="Python.threading scribble" />
         <item itemvalue="Python.multicore scribble" />
         <item itemvalue="Python.diceGUI" />
-        <item itemvalue="Python.2 Buttons with class" />
       </list>
     </recent_temporary>
   </component>
@@ -374,7 +388,7 @@
       <window_info anchor="bottom" id="Message" order="3" />
       <window_info anchor="bottom" id="Find" order="4" />
       <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" sideWeight="0.48081023" visible="true" weight="0.20386267" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.48081023" weight="0.20386267" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.39914164" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -520,19 +534,20 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice/threading scribble.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="408">
-          <caret line="24" column="15" selection-start-line="24" selection-start-column="15" selection-end-line="24" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice/threading scribble.py" />
     <entry file="file://$PROJECT_DIR$/experimentus maximus.py">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="5" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/inlämningar/Dodger/dodger.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="14" column="20" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
           <folding>
-            <marker date="1541166327557" expanded="true" signature="24:129" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
