@@ -7,12 +7,14 @@ WINDOWWIDTH = 600
 WINDOWHEIGHT = 600
 TEXTCOLOR = (255, 255, 255)
 BACKGROUNDCOLOR = (0, 0, 40)
-FPS = 40
-BADDIEMINSIZE = 10
+FPS = 60
+BADDIEMINSIZE = 20
 BADDIEMAXSIZE = 40
-BADDIEMINSPEED = 1
+BADDIEMINSPEED = 2
 BADDIEMAXSPEED = 8
-ADDNEWBADDIERATE = 6
+ADDNEWBADDIERATE = 7
+ADDNEWPOWERRATE = 20
+POWERSIZE = 25
 PLAYERMOVERATE = 5
 
 
@@ -38,6 +40,14 @@ def playerHasHitBaddie(playerRect, baddies):
             return True
     return False
 
+def playerHasCollectedPowerup(playerRect, power):
+    for p in power:
+        if playerRect.colliderect(p['rect']):
+            powerUpSound.play()
+            power.remove(p)
+            return True
+    return False
+
 
 def drawText(text, font, surface, x, y):
     textobj = font.render(text, 1, TEXTCOLOR)
@@ -49,7 +59,7 @@ def drawText(text, font, surface, x, y):
 pygame.init()
 mainClock = pygame.time.Clock()
 windowSurface = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
-pygame.display.set_caption('Dodger')
+pygame.display.set_caption('Sponger')
 pygame.mouse.set_visible(False)
 
 # set up fonts
@@ -57,12 +67,16 @@ font = pygame.font.SysFont(None, 48)
 
 # set up sounds
 gameOverSound = pygame.mixer.Sound('gameover.wav')
-pygame.mixer.music.load('background.mid')
+powerUpSound = pygame.mixer.Sound('powerup.wav')
+pygame.mixer.music.load('bgmusic.mp3')
+
 
 # set up images
+backGround = pygame.image.load('bg.png')
 playerImage = pygame.image.load('player.png')
 playerRect = playerImage.get_rect()
 baddieImage = pygame.image.load('baddie.png')
+powerImage = pygame.image.load('power.png')
 
 # show the "Start" screen
 drawText('Dodger', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3))
@@ -75,12 +89,16 @@ topScore = 0
 while True:
     # set up the start of the game
     baddies = []
+    power = []
     score = 0
     playerRect.topleft = (WINDOWWIDTH / 2, WINDOWHEIGHT - 50)
     moveLeft = moveRight = moveUp = moveDown = False
     reverseCheat = slowCheat = False
     baddieAddCounter = 0
+    powerAddCounter = 0
     pygame.mixer.music.play(-1, 0.0)
+    windowSurface.blit(backGround, (0, 0))
+    pygame.display.flip()
 
     while True:  # the game loop runs while the game part is playing
         score += 1  # increase score
@@ -138,10 +156,22 @@ while True:
             baddieSize = random.randint(BADDIEMINSIZE, BADDIEMAXSIZE)
             newBaddie = {'rect': pygame.Rect(random.randint(0, WINDOWWIDTH-baddieSize), 0 - baddieSize, baddieSize, baddieSize),
                         'speed': random.randint(BADDIEMINSPEED, BADDIEMAXSPEED),
-                        'surface':pygame.transform.scale(baddieImage, (baddieSize, baddieSize)),
+                        'surface':pygame.transform.scale(baddieImage, (baddieSize-10, baddieSize)),
                         }
 
             baddies.append(newBaddie)
+        #POWER
+        if not reverseCheat and not slowCheat:
+            powerAddCounter += 1
+        if powerAddCounter == ADDNEWPOWERRATE:
+            powerAddCounter = 0
+            powerSize = POWERSIZE
+            newPower = {'rect': pygame.Rect(random.randint(0, WINDOWWIDTH-powerSize), 0 - powerSize, powerSize, powerSize),
+                        'speed': random.randint(BADDIEMINSPEED, BADDIEMAXSPEED),
+                        'surface':pygame.transform.scale(powerImage, (powerSize, powerSize)),
+                        }
+
+            power.append(newPower)
 
         # Move the player around.
         if moveLeft and playerRect.left > 0:
@@ -164,14 +194,25 @@ while True:
                 b['rect'].move_ip(0, -5)
             elif slowCheat:
                 b['rect'].move_ip(0, 1)
+        # Move the powerups down
+        for p in power:
+            if not reverseCheat and not slowCheat:
+                p['rect'].move_ip(0, p['speed'])
+            elif reverseCheat:
+                p['rect'].move_ip(0, -5)
+            elif slowCheat:
+                p['rect'].move_ip(0, 1)
 
         # Delete baddies that have fallen past the bottom.
         for b in baddies[:]:
             if b['rect'].top > WINDOWHEIGHT:
                 baddies.remove(b)
+        for p in power[:]:
+            if p['rect'].top > WINDOWHEIGHT:
+                power.remove(p)
 
         # Draw the game world on the window.
-        windowSurface.fill(BACKGROUNDCOLOR)
+        windowSurface.blit(backGround, (0, 0))
 
         # Draw the score and top score.
         drawText('Score: %s' % score, font, windowSurface, 10, 0)
@@ -183,6 +224,8 @@ while True:
         # Draw each baddie
         for b in baddies:
             windowSurface.blit(b['surface'], b['rect'])
+        for p in power:
+            windowSurface.blit(p['surface'], p['rect'])
 
         pygame.display.update()
 
@@ -191,6 +234,11 @@ while True:
             if score > topScore:
                 topScore = score  # set new top score
             break
+
+        if playerHasCollectedPowerup(playerRect, power):
+            score += 500
+
+
 
         mainClock.tick(FPS)
 
