@@ -1,10 +1,10 @@
 import pygame
 import random
 import sys
+import os
 from pygame.locals import *
 
-WINDOWWIDTH = 1152
-WINDOWHEIGHT = 648
+
 TEXTCOLOR = (255, 255, 255)
 BACKGROUNDCOLOR = (0, 0, 40)
 FPS = 60
@@ -14,8 +14,9 @@ BADDIEMINSPEED = 2
 BADDIEMAXSPEED = 7
 ADDNEWBADDIERATE = 4
 ADDNEWPOWERRATE = 20
+ADDNEWGOLDRATE = 30
 POWERSIZE = 25
-PLAYERMOVERATE = 5
+PLAYERMOVERATE = 8
 
 
 def terminate():
@@ -50,6 +51,15 @@ def playerHasCollectedPowerup(playerRect, power):
     return False
 
 
+def playerHasCollectedGold(playerRect, gold):
+    for g in gold:
+        if playerRect.colliderect(g['rect']):
+            goldSound.play()
+            gold.remove(g)
+            return True
+    return False
+
+
 def drawText(text, font, surface, x, y):
     textobj = font.render(text, 1, TEXTCOLOR)
     textrect = textobj.get_rect()
@@ -57,9 +67,12 @@ def drawText(text, font, surface, x, y):
     surface.blit(textobj, textrect)
 
 # set up pygame, the window, and the mouse cursor
+os.environ['SDL_VIDEO_CENTERED'] = '1' # You have to call this before pygame.init()
 pygame.init()
 mainClock = pygame.time.Clock()
-windowSurface = pygame.display.set_mode((WINDOWWIDTH, WINDOWHEIGHT))
+windowSurface = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+WINDOWWIDTH, WINDOWHEIGHT = windowSurface.get_size()
+
 pygame.display.set_caption('Sponger')
 pygame.mouse.set_visible(False)
 
@@ -69,15 +82,18 @@ font = pygame.font.SysFont(None, 48)
 # set up sounds
 gameOverSound = pygame.mixer.Sound('gameover.wav')
 powerUpSound = pygame.mixer.Sound('powerup.wav')
+goldSound = pygame.mixer.Sound('gold.wav')
 pygame.mixer.music.load('bgmusic.mp3')
 
 
 # set up images
 backGround = pygame.image.load('bg.png')
+backGround = pygame.transform.scale(backGround, (WINDOWWIDTH, WINDOWWIDTH))
 playerImage = pygame.image.load('player.png')
 playerRect = playerImage.get_rect()
 baddieImage = pygame.image.load('baddie.png')
 powerImage = pygame.image.load('power.png')
+goldImage = pygame.image.load('gold.png')
 
 # show the "Start" screen
 drawText('Dodger', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3))
@@ -91,12 +107,14 @@ while True:
     # set up the start of the game
     baddies = []
     power = []
+    gold = []
     score = 0
     playerRect.topleft = (WINDOWWIDTH / 2, WINDOWHEIGHT - 50)
     moveLeft = moveRight = moveUp = moveDown = False
     reverseCheat = slowCheat = False
     baddieAddCounter = 0
     powerAddCounter = 0
+    goldAddCounter = 0
     pygame.mixer.music.play(-1, 0.0)
     windowSurface.blit(backGround, (0, 0))
     pygame.display.flip()
@@ -173,6 +191,18 @@ while True:
                         }
 
             power.append(newPower)
+        # GOLD
+        if not reverseCheat and not slowCheat:
+            goldAddCounter += 0.125
+        if goldAddCounter == ADDNEWPOWERRATE:
+            goldAddCounter = 0
+            powerSize = POWERSIZE
+            newGold = {'rect': pygame.Rect(random.randint(0, WINDOWWIDTH-powerSize), 0 - powerSize, powerSize, powerSize),
+                        'speed': random.randint(BADDIEMINSPEED, BADDIEMAXSPEED),
+                        'surface':pygame.transform.scale(goldImage, (powerSize, powerSize)),
+                        }
+
+            gold.append(newGold)
 
         # Move the player around.
         if moveLeft and playerRect.left > 0:
@@ -203,6 +233,14 @@ while True:
                 p['rect'].move_ip(0, -5)
             elif slowCheat:
                 p['rect'].move_ip(0, 1)
+        # Move gold down
+        for g in gold:
+            if not reverseCheat and not slowCheat:
+                g['rect'].move_ip(0, g['speed'])
+            elif reverseCheat:
+                g['rect'].move_ip(0, -5)
+            elif slowCheat:
+                g['rect'].move_ip(0, 1)
 
         # Delete baddies that have fallen past the bottom.
         for b in baddies[:]:
@@ -211,6 +249,9 @@ while True:
         for p in power[:]:
             if p['rect'].top > WINDOWHEIGHT:
                 power.remove(p)
+        for g in gold[:]:
+            if g['rect'].top > WINDOWHEIGHT:
+                gold.remove(g)
 
         # Draw the game world on the window.
         windowSurface.blit(backGround, (0, 0))
@@ -227,6 +268,8 @@ while True:
             windowSurface.blit(b['surface'], b['rect'])
         for p in power:
             windowSurface.blit(p['surface'], p['rect'])
+        for g in gold:
+            windowSurface.blit(g['surface'], g['rect'])
 
         pygame.display.update()
 
@@ -238,6 +281,9 @@ while True:
 
         if playerHasCollectedPowerup(playerRect, power):
             score += 500
+
+        if playerHasCollectedGold(playerRect, gold):
+            score += 5000
 
         mainClock.tick(FPS)
 
