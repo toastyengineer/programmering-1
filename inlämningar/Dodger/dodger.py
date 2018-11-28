@@ -2,6 +2,7 @@ import pygame
 import random
 import sys
 import os
+import shelve
 from pygame.locals import *
 
 
@@ -22,6 +23,19 @@ PLAYERMOVERATE = 8
 def terminate():
     pygame.quit()
     sys.exit()
+
+
+def scoreload():
+    if shelve.open('top'):
+        d = shelve.open('top')
+        return d['score']
+    else:
+        return 0
+
+
+def scoresave(score):
+    d = shelve.open('top')
+    d['score'] = score
 
 
 def waitForPlayerToPressKey():
@@ -96,19 +110,18 @@ powerImage = pygame.image.load('power.png')
 goldImage = pygame.image.load('gold.png')
 
 # show the "Start" screen
-drawText('Dodger', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3))
+drawText('Sponger', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3))
 drawText('Press a key to start.', font, windowSurface, (WINDOWWIDTH / 3) - 30, (WINDOWHEIGHT / 3) + 50)
 pygame.display.update()
 waitForPlayerToPressKey()
 
 
-topScore = 0
+topScore = scoreload()
 while True:
     # set up the start of the game
     baddies = []
     power = []
     gold = []
-    score = 0
     playerRect.topleft = (WINDOWWIDTH / 2, WINDOWHEIGHT - 50)
     moveLeft = moveRight = moveUp = moveDown = False
     reverseCheat = slowCheat = False
@@ -118,9 +131,14 @@ while True:
     pygame.mixer.music.play(-1, 0.0)
     windowSurface.blit(backGround, (0, 0))
     pygame.display.flip()
+    score = 0
 
     while True:  # the game loop runs while the game part is playing
         score += 1  # increase score
+
+        while slowCheat or reverseCheat:
+            score -= 3
+            break
 
         for event in pygame.event.get():
             if event.type == QUIT:
@@ -147,10 +165,10 @@ while True:
             if event.type == KEYUP:
                 if event.key == ord('z'):
                     reverseCheat = False
-                    score = 0
+
                 if event.key == ord('x'):
                     slowCheat = False
-                    score = 0
+
                 if event.key == K_ESCAPE:
                         terminate()
 
@@ -205,10 +223,18 @@ while True:
             gold.append(newGold)
 
         # Move the player around.
-        if moveLeft and playerRect.left > 0:
-            playerRect.move_ip(-1 * PLAYERMOVERATE, 0)
-        if moveRight and playerRect.right < WINDOWWIDTH:
-            playerRect.move_ip(PLAYERMOVERATE, 0)
+        if moveLeft:
+            if playerRect.left > 0:
+                playerRect.move_ip(-1 * PLAYERMOVERATE, 0)
+            else:
+                playerRect.right = WINDOWWIDTH
+
+        if moveRight:
+            if playerRect.right < WINDOWWIDTH:
+                playerRect.move_ip(PLAYERMOVERATE, 0)
+            else:
+                playerRect.left = 0
+
         if moveUp and playerRect.top > 0:
             playerRect.move_ip(0, -1 * PLAYERMOVERATE)
         if moveDown and playerRect.bottom < WINDOWHEIGHT:
@@ -280,10 +306,10 @@ while True:
             break
 
         if playerHasCollectedPowerup(playerRect, power):
-            score += 500
+            score += 100
 
         if playerHasCollectedGold(playerRect, gold):
-            score += 5000
+            score += 1000
 
         mainClock.tick(FPS)
 
@@ -293,6 +319,7 @@ while True:
 
     drawText('GAME OVER', font, windowSurface, (WINDOWWIDTH / 3), (WINDOWHEIGHT / 3))
     drawText('Press a key to play .', font, windowSurface, (WINDOWWIDTH / 3) - 80, (WINDOWHEIGHT / 3) + 50)
+    scoresave(topScore)
     pygame.display.update()
     waitForPlayerToPressKey()
 
