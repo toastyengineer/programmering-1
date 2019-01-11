@@ -5,6 +5,7 @@ import os
 import shelve
 from pygame.locals import *
 
+# Added additional constants for new gems
 
 TEXTCOLOR = (255, 255, 255)
 BACKGROUNDCOLOR = (0, 0, 40)
@@ -18,6 +19,7 @@ ADDNEWPOWERRATE = 20
 ADDNEWGOLDRATE = 30
 POWERSIZE = 25
 PLAYERMOVERATE = 8
+LIVES = 2
 
 
 def terminate():
@@ -25,6 +27,7 @@ def terminate():
     sys.exit()
 
 
+# Added top score load
 def scoreload():
     if shelve.open('top'):
         d = shelve.open('top')
@@ -33,9 +36,10 @@ def scoreload():
         return 0
 
 
-def scoresave(score):
+# Added top score save
+def scoresave(newtop):
     d = shelve.open('top')
-    d['score'] = score
+    d['score'] = newtop
 
 
 def waitForPlayerToPressKey():
@@ -56,6 +60,7 @@ def playerHasHitBaddie(playerRect, baddies):
     return False
 
 
+# Added functions to check for powerup collisions
 def playerHasCollectedPowerup(playerRect, power):
     for p in power:
         if playerRect.colliderect(p['rect']):
@@ -81,10 +86,11 @@ def drawText(text, font, surface, x, y):
     surface.blit(textobj, textrect)
 
 # set up pygame, the window, and the mouse cursor
+# added fullscreen functionality no matter what screen you use
 os.environ['SDL_VIDEO_CENTERED'] = '1' # You have to call this before pygame.init()
 pygame.init()
 mainClock = pygame.time.Clock()
-windowSurface = pygame.display.set_mode((0, 0), pygame.FULLSCREEN)
+windowSurface = pygame.display.set_mode((0, 0))
 WINDOWWIDTH, WINDOWHEIGHT = windowSurface.get_size()
 
 pygame.display.set_caption('Sponger')
@@ -97,6 +103,7 @@ font = pygame.font.SysFont(None, 48)
 gameOverSound = pygame.mixer.Sound('gameover.wav')
 powerUpSound = pygame.mixer.Sound('powerup.wav')
 goldSound = pygame.mixer.Sound('gold.wav')
+damageSound = pygame.mixer.Sound('damage.wav')
 pygame.mixer.music.load('bgmusic.mp3')
 
 
@@ -115,7 +122,7 @@ drawText('Press a key to start.', font, windowSurface, (WINDOWWIDTH / 3) - 30, (
 pygame.display.update()
 waitForPlayerToPressKey()
 
-
+# load latest saved highscore if there is one
 topScore = scoreload()
 while True:
     # set up the start of the game
@@ -132,6 +139,7 @@ while True:
     windowSurface.blit(backGround, (0, 0))
     pygame.display.flip()
     score = 0
+    lives = LIVES
 
     while True:  # the game loop runs while the game part is playing
         score += 1  # increase score
@@ -285,6 +293,7 @@ while True:
         # Draw the score and top score.
         drawText('Score: %s' % score, font, windowSurface, 10, 0)
         drawText('Top Score: %s' % topScore, font, windowSurface, 10, 40)
+        drawText('Lives: %s' % (lives+1), font, windowSurface, 10, 80)
 
         # Draw the player's rectangle
         windowSurface.blit(playerImage, playerRect)
@@ -301,9 +310,13 @@ while True:
 
         # Check if any of the baddies have hit the player.
         if playerHasHitBaddie(playerRect, baddies):
-            if score > topScore:
-                topScore = score  # set new top score
-            break
+            lives -= 1
+            for b in baddies:
+                if playerRect.colliderect(b['rect']):
+                    damageSound.play()
+                    baddies.remove(b)
+            if lives < 0:
+                break
 
         if playerHasCollectedPowerup(playerRect, power):
             score += 100
@@ -314,6 +327,8 @@ while True:
         mainClock.tick(FPS)
 
     # Stop the game and show the "Game Over" screen.
+    if score > topScore:
+        topScore = score  # set new top score
     pygame.mixer.music.stop()
     gameOverSound.play()
 
