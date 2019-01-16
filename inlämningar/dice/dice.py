@@ -1,25 +1,33 @@
+""" dice
+
+This program will calculate the chance of getting
+either 11, 7 as a sum of two rolled dices
+OR that they are equal to each other.
+"""
+
 from random import randint
 
 print()
-rolls = int(input("Disclaimer: more rolls achieves a higher accuracy but at the cost of time.\n\nEnter the amount of rolls you want to do: "))
+ROLLS = int(input("Disclaimer: more rolls achieves a higher accuracy but at the cost of time.\n\
+\nEnter the amount of rolls you want to do: "))
 print()
 
-wins = 0
-loss = 0
+WINS = 0
+LOSS = 0
 
-while rolls > 0:
+while ROLLS > 0:
 
-    dice1 = randint(1, 6)
-    dice2 = randint(1, 6)
+    DICE_X = randint(1, 6)
+    DICE_Y = randint(1, 6)
 
-    if dice1+dice2 == 11 or dice1+dice2 == 7 or dice1 == dice2:
-        wins += 1
+    if DICE_X+DICE_Y == 11 or DICE_X+DICE_Y == 7 or DICE_X == DICE_Y:
+        WINS += 1
     else:
-        loss += 1
+        LOSS += 1
 
-    rolls -= 1
-total = wins + loss
+    ROLLS -= 1
+TOTAL = WINS + LOSS
 
-percentage = (wins / total) * 100
+PERCENTAGE = (WINS / TOTAL) * 100
 
-print("Calculated percentage of a roll fulfilling requirements are:", round(percentage, 1), "%")
+print("Calculated percentage of a roll fulfilling requirements are:", round(PERCENTAGE, 1), "%")
