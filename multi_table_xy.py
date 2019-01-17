@@ -1,9 +1,13 @@
+"""
+Placeholder
+"""
+
 import time
-m = int(input("enter nm 1: "))
-n = int(input("enter nm 2: "))
+NUM_1 = int(input("enter nm 1: "))
+NUM_2 = int(input("enter nm 2: "))+1
 
 
-for inputs in range(m, n+1):
+for inputs in range(NUM_1, NUM_2):
     for factor in range(1, 11):
         if inputs*factor < 10:
             print(end=" ")

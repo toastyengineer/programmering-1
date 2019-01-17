@@ -1,8 +1,12 @@
+""" ish
+This is a translator for any language,
+translates into the ISH language
+"""
 
-user_input = input("Universal Ish Translator\nEnterish yourish wordish hereish: ")
-word_list = user_input.split()
+USER_INPUT = input("Universal Ish Translator\nEnterish yourish wordish hereish: ")
+WORD_LIST = USER_INPUT.split()
 
-for word in word_list:
+for word in WORD_LIST:
 
     if word[-1] == "I" or word[-1] == "i":
         print(word, end=" ")
