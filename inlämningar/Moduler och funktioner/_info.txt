@@ -1,0 +1,5 @@
+Inga print() Förutom app.py
+Inga input() -----=-----
+Använd pylint (statisk kodanalys)
+Använd unittest (dynamisk kodanalys)
+Använd Felhantering
