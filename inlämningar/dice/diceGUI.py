@@ -44,7 +44,7 @@ def clearer():
 def quitter():
     answer = tkinter.messagebox.askquestion("Quit", "Are you sure you want to quit the application?")
     if answer == "yes":
-        root.quit()
+        exit()
 
 # GUI Loop
 root = Tk()

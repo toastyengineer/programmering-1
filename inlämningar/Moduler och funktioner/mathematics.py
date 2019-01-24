@@ -7,7 +7,7 @@ quotient of the given numbers
 
 def add(addend1, addend2):
     """Calculate the sum"""
-    if type(addend1) is str or type(addend2) is str:
+    if isinstance(addend1, str) or isinstance(addend2, str):
         return "Error: TypeError"
     else:
         return addend1 + addend2
@@ -23,7 +23,7 @@ def sub(minuend, subtrahend):
 
 def mul(factor1, factor2):
     """Calculate the product"""
-    if type(factor1) is str or type(factor2) is str:
+    if isinstance(factor1, str) or isinstance(factor2, str):
         return "Error: TypeError"
     else:
         return factor1 * factor2
