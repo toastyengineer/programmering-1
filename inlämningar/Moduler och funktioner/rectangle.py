@@ -12,8 +12,7 @@ def area(width, height):
 
         if float_result == int(float_result):
             return int(float_result)
-        else:
-            return float_result
+        return float_result
     except:
         return "Error: TypeError"
 
@@ -25,7 +24,6 @@ def circ(width, height):
 
         if float_result == int(float_result):
             return int(float_result)
-        else:
-            return float_result
+        return float_result
     except:
         return "Error: TypeError"
