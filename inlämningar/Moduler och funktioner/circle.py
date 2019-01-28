@@ -10,7 +10,7 @@ def area(radius):
     """Calculate the area"""
     try:
         return pi * abs(radius) ** 2
-    except TypeError:
+    except:
         return "Error: TypeError"
 
 
@@ -18,5 +18,5 @@ def circ(radius):
     """Calculate the circumference"""
     try:
         return 2 * pi * abs(radius)
-    except TypeError:
+    except:
         return "Error: TypeError"

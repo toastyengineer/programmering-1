@@ -7,33 +7,54 @@ quotient of the given numbers
 
 def add(addend1, addend2):
     """Calculate the sum"""
-    if isinstance(addend1, str) or isinstance(addend2, str):
+    try:
+        float_result = float(addend1) + float(addend2)
+
+        if float_result == int(float_result):
+            return int(float_result)
+        else:
+            return float_result
+    except:
         return "Error: TypeError"
-    else:
-        return addend1 + addend2
 
 
 def sub(minuend, subtrahend):
     """Calculate the difference"""
     try:
-        return minuend - subtrahend
-    except TypeError:
+        float_result = float(minuend) - float(subtrahend)
+
+        if float_result == int(float_result):
+            return int(float_result)
+        else:
+            return float_result
+    except:
         return "Error: TypeError"
 
 
 def mul(factor1, factor2):
     """Calculate the product"""
-    if isinstance(factor1, str) or isinstance(factor2, str):
+    try:
+        float_result = float(factor1) * float(factor2)
+
+        if float_result == int(float_result):
+            return int(float_result)
+        else:
+            return float_result
+    except:
         return "Error: TypeError"
-    else:
-        return factor1 * factor2
 
 
 def div(dividend, divisor):
     """Calculate the quotient"""
     try:
-        return dividend / divisor
+        float_result = float(dividend) / float(divisor)
+
+        if float_result == int(float_result):
+            return int(float_result)
+        else:
+            return float_result
+
     except ZeroDivisionError:
         return "Error: ZeroDivisionError"
-    except TypeError:
+    except:
         return "Error: TypeError"
