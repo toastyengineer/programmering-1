@@ -3,7 +3,6 @@ requisites: mathemathics.py, circle.py, rectangle.py
 This app will combine functionality from the three modules above.
 Simple command line interaction to perform simple calculations.
 """
-import os
 import mathematics
 import rectangle
 import circle
@@ -15,11 +14,10 @@ def run_again():
         again = input("Would you like to run again? y/n ")
         if again in ("yes", "y"):
             print("\n\n\n\n\n\n\n\n\n\n\n\n\n\n")
-            break
+            return True
         elif again in ("n", "no"):
-            os._exit(0)
-        else:
-            print("Invalid answer")
+            return False
+        print("Invalid answer")
 
 
 while True:
@@ -54,7 +52,8 @@ The difference is {mathematics.sub(NUM1, NUM2)}
 The product is {mathematics.mul(NUM1, NUM2)}
 The quotient is {mathematics.div(NUM1, NUM2)}
 ----------""")
-                run_again()
+                if not run_again():
+                    exit(0)
 
             elif CHOICE == 2:
                 # Initiates rectangle module calculations
@@ -69,7 +68,8 @@ and circumference will be calculated.
 The area is {rectangle.area(NUM1, NUM2)}
 The circumference is {rectangle.circ(NUM1, NUM2)}
 ----------""")
-                run_again()
+                if not run_again():
+                    exit(0)
 
             elif CHOICE == 3:
                 # Initiates circle module calculations
@@ -83,6 +83,7 @@ will be calculated.
 The area is {circle.area(NUM1)}
 The circumference is {circle.circ(NUM1)}
 ----------""")
-                run_again()
-    except:  # If user entered string item in main menu
+                if not run_again():
+                    exit(0)
+    except ValueError:  # If user entered string item in main menu
         print("\n\n\n\n\n\n\n\n\n\n\n\nInvalid input, please select 1, 2 or 3\n\n")
