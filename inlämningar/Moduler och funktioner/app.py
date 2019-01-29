@@ -1,5 +1,5 @@
 """ app
-requisites: mathemathics.py, circle.py, rectangle.py
+requisites: mathematics.py, circle.py, rectangle.py
 This app will combine functionality from the three modules above.
 Simple command line interaction to perform simple calculations.
 """

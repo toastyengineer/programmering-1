@@ -14,7 +14,7 @@ def area(radius):
             return int(float_result)  # the int value is returned.
         return float_result  # Otherwise the float is returned.
         # (same principle applies to all functions below)
-    except:
+    except ValueError:
         return "Error: TypeError"
 
 
@@ -26,5 +26,5 @@ def circ(radius):
         if float_result == int(float_result):
             return int(float_result)
         return float_result
-    except:
+    except ValueError:
         return "Error: TypeError"

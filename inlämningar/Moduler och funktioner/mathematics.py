@@ -14,7 +14,7 @@ def add(addend1, addend2):
             return int(float_result)  # the int value is returned.
         return float_result  # Otherwise the float is returned.
         # (same principle applies to all functions below)
-    except:
+    except ValueError:
         return "Error: TypeError"
 
 
@@ -26,7 +26,7 @@ def sub(minuend, subtrahend):
         if float_result == int(float_result):
             return int(float_result)
         return float_result
-    except:
+    except ValueError:
         return "Error: TypeError"
 
 
@@ -38,7 +38,7 @@ def mul(factor1, factor2):
         if float_result == int(float_result):
             return int(float_result)
         return float_result
-    except:
+    except ValueError:
         return "Error: TypeError"
 
 
@@ -53,5 +53,5 @@ def div(dividend, divisor):
 
     except ZeroDivisionError:
         return "Error: ZeroDivisionError"
-    except:
+    except ValueError:
         return "Error: TypeError"
