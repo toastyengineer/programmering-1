@@ -43,7 +43,7 @@ MUTEX = multiprocessing.Lock()
 if __name__ == "__main__":
 
     multiprocessing.freeze_support()
-    ROLLS = int(input("Enter amount of rolls you would like to do: "))
+    ROLLS = 2000000#int(input("Enter amount of rolls you would like to do: "))
 
     # #######
     # create a multiprocessing.Queue() instance that spans across Processes
@@ -86,8 +86,6 @@ if __name__ == "__main__":
     P8.join()
 
     print(f"\nYou rolled a total of {WINS+LOSS} times, you got {WINS} wins and {LOSS} losses.")
-    print(f"Calculated percentage of a roll fulfilling requirements are: \
-    {round((WINS / (WINS + LOSS)) * 100 , 2)}%\n")
+    print(f"Calculated percentage of a roll fulfilling requirements are: {round((WINS / (WINS + LOSS)) * 100 , 4)}%\n")
 
     print(f"Finished in {round((time.time()-TIME), 3)} seconds.", end="\n\n")
-
