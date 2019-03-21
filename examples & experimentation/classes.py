@@ -6,6 +6,7 @@ classes.py
 """
 import math
 
+
 class Cars:
     """ This car class allows the creation of an endless amount of vehicles """
     def __init__(self, colour="White", chassis="Sedan", torque="Unspecified", consumption=0.8):
@@ -20,8 +21,8 @@ class Cars:
 
     def __str__(self):
         """ What gets printed when you print an object from this class """
-        return f"Colour: {self.colour} ; Type: {self.chassis} ; Torque: {self.torque} ; \
-Running: {self.running} ; {round(self.fuel, 1)}L remaining ; Position: ({self.pos[0]},{self.pos[1]})"
+        return f"Colour: {self.colour} ; Type: {self.chassis} ; Torque: {self.torque} ; Running: \
+{self.running} ; {round(self.fuel, 1)}L remaining ; Position: ({self.pos[0]},{self.pos[1]})"
 
     def start(self):
         """ Starts the engine """
@@ -35,7 +36,7 @@ Running: {self.running} ; {round(self.fuel, 1)}L remaining ; Position: ({self.po
         """ Moves the car to a coordinate"""
         if self.running and self.distance(pos) <= self.range():
 
-            self.fuel =  self.fuel - (self.distance(pos)/ 10 * self.consumption)
+            self.fuel = self.fuel - (self.distance(pos)/ 10 * self.consumption)
             self.pos = pos
 
         return False
@@ -76,12 +77,14 @@ Type \"start\" to start the engine.""")
         else:
             print("Invalid option.\n--------------")
 
+
 def drive(car, target):
+    """ Drive somewhere """
     if not car.drive([target[0], target[1]]):
         if not car.running:
             print("Car is not running.")
         elif car.range() < car.distance(target):
             print("You don't have enough gas to make this trip.")
-            # TODO: Ask if user wants to drive until fuel is empty
+
 
 main()
