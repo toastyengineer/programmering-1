@@ -9,6 +9,8 @@ import math
 
 class Cars:
     """ This car class allows the creation of an endless amount of vehicles """
+    num_cars = 0
+
     def __init__(self, colour="White", chassis="Sedan", torque="Unspecified", consumption=0.8):
         """ Assigns the car with factory settings """
         self.colour = colour
@@ -19,10 +21,16 @@ class Cars:
         self.fuel = 68  # litres
         self.pos = [0, 0]
 
+        Cars.num_cars += 1
+
     def __str__(self):
         """ What gets printed when you print an object from this class """
         return f"Colour: {self.colour} ; Type: {self.chassis} ; Torque: {self.torque} ; Running: \
 {self.running} ; {round(self.fuel, 1)}L remaining ; Position: ({self.pos[0]},{self.pos[1]})"
+
+    def __repr__(self):
+        """ Debug """
+        return f"Cars(\"{self.colour}\", \"{self.chassis}\", {self.torque}, {self.consumption})"
 
     def start(self):
         """ Starts the engine """
@@ -43,7 +51,7 @@ class Cars:
 
     def read_position(self):
         """ Gets a read on the current position of the car"""
-        return f"({self.pos[0]},{self.pos[1]})"
+        return f"({int(self.pos[0])},{int(self.pos[1])})"
 
     def range(self):
         """ Calculates how far you can go """
