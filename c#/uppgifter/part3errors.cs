@@ -9,13 +9,16 @@ public class Part3Errors
     public static int f(int x, int y)
     {
       // Returns 3x/2y
-      return (3*x)/(2*y);
+      if (y != 0)
+        return (3*x)/(2*y);
+      else
+        return 0;
     }
 
     public static void g(double z = 1.0)
     {
         // Prints square root of z
-        Console.WriteLine(Math.Pow(z, 1.0));
+        Console.WriteLine(Math.Pow(z, 0.5));
     }
 
     public static void Main()
