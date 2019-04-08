@@ -8,7 +8,7 @@ public class Multi
     System.Environment.Exit(1);
   }
 
-  public static int Ask(string s)
+  public static int GetValue(string s)
   {
     Console.WriteLine(s);
     int x = Convert.ToInt32(Console.ReadLine());
@@ -21,8 +21,8 @@ public class Multi
 
   public static void Main()
   {
-    int m = Ask("Enter m (must be positive whole number): ");
-    int n = Ask("Enter n (whole number greater than m): ");
+    int m = GetValue("Enter m (must be positive whole number): ");
+    int n = GetValue("Enter n (whole number greater than m): ");
     if (m > n)
     {
       Error();
