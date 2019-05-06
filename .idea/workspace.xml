@@ -2,11 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2546f860-69ad-407b-aa80-2cc81f1aa9bf" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/programmering-1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/programmering-1.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Unittest example/geometry.py" beforeDir="false" afterPath="$PROJECT_DIR$/Unittest example/geometry.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inlämningar/dice/dice.py" beforeDir="false" afterPath="$PROJECT_DIR$/inlämningar/dice/dice.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/inlämningar/uppg.1 kalkylator med alla räknesätt (hardlocked).py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/inlämningar/uppg.2 kalkylator med alla räknesätt.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/exercise15_1_thinkpython/exercise15_1.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/assignments/goldenratio/golden.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/testing.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/testing.exe" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/uppgifter/golden ratio/buddycheck/golden4 comments.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/uppgifter/golden ratio/buddycheck/golden4.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/uppgifter/golden ratio/golden.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/uppgifter/golden ratio/part5.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/uppgifter/multiplikationstabell/multi.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/c#/uppgifter/part3errors.cs" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,38 +26,42 @@
     <session id="1886047477">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="21" />
+          <entry key="project.closed" value="41" />
           <entry key="project.open.time.10" value="2" />
+          <entry key="project.open.time.11" value="3" />
           <entry key="project.open.time.12" value="1" />
+          <entry key="project.open.time.16" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.5" value="2" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.open.time.7" value="1" />
-          <entry key="project.open.time.8" value="9" />
-          <entry key="project.open.time.9" value="4" />
-          <entry key="project.opened" value="21" />
+          <entry key="project.open.time.7" value="6" />
+          <entry key="project.open.time.8" value="18" />
+          <entry key="project.open.time.9" value="6" />
+          <entry key="project.opened" value="41" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="45" />
+          <entry key="py" value="94" />
+          <entry key="restats" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="45" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="Python" value="94" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="274" />
-          <entry key="py" value="6782" />
+          <entry key="dummy" value="276" />
+          <entry key="py" value="17183" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="274" />
-          <entry key="Python" value="6782" />
+          <entry key="PLAIN_TEXT" value="276" />
+          <entry key="Python" value="17183" />
         </counts>
       </usages-collector>
     </session>
@@ -85,35 +97,56 @@
         </counts>
       </usages-collector>
     </session>
+    <session id="-804052464">
+      <usages-collector id="statistics.lifecycle.project">
+        <counts>
+          <entry key="project.closed" value="11" />
+          <entry key="project.open.time.0" value="1" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="3" />
+          <entry key="project.open.time.7" value="1" />
+          <entry key="project.open.time.8" value="3" />
+          <entry key="project.opened" value="11" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.open">
+        <counts>
+          <entry key="cs" value="4" />
+          <entry key="p" value="1" />
+          <entry key="py" value="19" />
+          <entry key="txt" value="5" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.open">
+        <counts>
+          <entry key="C#" value="4" />
+          <entry key="PLAIN_TEXT" value="6" />
+          <entry key="Python" value="19" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="dummy" value="23" />
+          <entry key="py" value="10446" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="PLAIN_TEXT" value="23" />
+          <entry key="Python" value="10446" />
+        </counts>
+      </usages-collector>
+    </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/inlämningar/calc2.py">
+        <entry file="file://$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython/exercise15_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="102">
-              <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/inlämningar/test_calc2.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Unittest example/test.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="500">
+              <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
             </state>
           </provider>
         </entry>
@@ -129,20 +162,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>donothing</find>
-      <find>10</find>
-      <find>main</find>
-      <find>blank</find>
-      <find>text</find>
-      <find>game over</find>
-      <find>powerup.</find>
-      <find>mouse</find>
-      <find>reverse</find>
-      <find>cheat</find>
-      <find>score =</find>
-      <find>gold</find>
-      <find>topscore</find>
-      <find>print</find>
       <find>terminate</find>
       <find>playerhashitbaddie</find>
       <find>move</find>
@@ -152,6 +171,27 @@
       <find>sound</find>
       <find>playerhashit</find>
       <find>if lives</find>
+      <find>hp</find>
+      <find>horsepower</find>
+      <find>mustang</find>
+      <find>newcirc</find>
+      <find>billybob</find>
+      <find>one</find>
+      <find>two</find>
+      <find>obj_1</find>
+      <find>obj_2</find>
+      <find>ph</find>
+      <find>combinations</find>
+      <find>x</find>
+      <find>bobby</find>
+      <find>circle_init</find>
+      <find>test_point</find>
+      <find>josef</find>
+      <find>mengele</find>
+      <find>JOSEF</find>
+      <find>rect_init</find>
+      <find>rect_init2</find>
+      <find>RECT_MENGELE</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -160,28 +200,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/triple multiplicator.py" />
-        <option value="$PROJECT_DIR$/multi table between x_y.py" />
-        <option value="$PROJECT_DIR$/multi_table_between_x_y.py" />
-        <option value="$PROJECT_DIR$/inlämningar/dice.py" />
-        <option value="$PROJECT_DIR$/gui.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui2.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/Login Form.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui3.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/Binds to different functions.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui4.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/buttons with class.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui5.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui6.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/Binding functions to buttons.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/2 Buttons with class.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/3 Binding functions to buttons.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/5 Quit button.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/6 Dropdown menus.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui7.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/7 Toolbar and Status bar.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/gui9.py" />
-        <option value="$PROJECT_DIR$/gui experimentation/6, 7, 8 Dropdown, Toolbar, Status bar.py" />
         <option value="$PROJECT_DIR$/gui experimentation/9 Messagebox.py" />
         <option value="$PROJECT_DIR$/gui experimentation/Images and Icons.py" />
         <option value="$PROJECT_DIR$/gui experimentation/10 Shapes and Graphics.py" />
@@ -196,7 +214,6 @@
         <option value="$PROJECT_DIR$/inlämningar/Dodger/dodger.py" />
         <option value="$PROJECT_DIR$/experimentus maximus.py" />
         <option value="$PROJECT_DIR$/geometri.py" />
-        <option value="$PROJECT_DIR$/experimentus_maximus.py" />
         <option value="$PROJECT_DIR$/Unittest example/geometri.py" />
         <option value="$PROJECT_DIR$/Unittest example/test.py" />
         <option value="$PROJECT_DIR$/Unittest example/geometry.py" />
@@ -206,14 +223,42 @@
         <option value="$PROJECT_DIR$/inlämningar/dice/dice.py" />
         <option value="$PROJECT_DIR$/inlamningar/test_calc2.py" />
         <option value="$PROJECT_DIR$/inlämningar/test_calc2.py" />
+        <option value="$PROJECT_DIR$/inlämningar/Moduler och funktioner/appGUI.py" />
+        <option value="$PROJECT_DIR$/inlämningar/Moduler och funktioner/app.py" />
+        <option value="$PROJECT_DIR$/inlämningar/Moduler och funktioner/circle.py" />
+        <option value="$PROJECT_DIR$/inlämningar/Moduler och funktioner/mathematics.py" />
+        <option value="$PROJECT_DIR$/inlämningar/Moduler och funktioner/rectangle.py" />
+        <option value="$PROJECT_DIR$/inlämningar/dice/dice_multi_compare.py" />
+        <option value="$PROJECT_DIR$/inlämningar/dice/dice_multi.py" />
+        <option value="$PROJECT_DIR$/temp/fakultet_profiling.py" />
+        <option value="$PROJECT_DIR$/experimentus_maximus.py" />
+        <option value="$PROJECT_DIR$/number/index finder.py" />
+        <option value="$PROJECT_DIR$/numberindex finder.py" />
+        <option value="$PROJECT_DIR$/numberindex_finder.py" />
+        <option value="$PROJECT_DIR$/find nums in list excercise/numberindex_finder.py" />
+        <option value="$PROJECT_DIR$/find nums in list excercise/binary_search_finder.py" />
+        <option value="$PROJECT_DIR$/bubble sort.py" />
+        <option value="$PROJECT_DIR$/bubble_sort.py" />
+        <option value="$PROJECT_DIR$/loops.py" />
+        <option value="$PROJECT_DIR$/examples &amp; experimentation/classes.py" />
+        <option value="$PROJECT_DIR$/c#/uppgifter/golden ratio/buddycheck/golden4.py" />
+        <option value="$PROJECT_DIR$/assignments/goldenratio/golden.py" />
+        <option value="$PROJECT_DIR$/examples &amp; experimentation/experimentus_maximus.py" />
+        <option value="$PROJECT_DIR$/examples &amp; experimentation/filhantering.py" />
+        <option value="$PROJECT_DIR$/examples &amp; experimentation/chilla.py" />
+        <option value="$PROJECT_DIR$/assignments/exercise15_1_thinkpython/test.py" />
+        <option value="$PROJECT_DIR$/assignments/exercise15_1_thinkpython/yalla.py" />
+        <option value="$PROJECT_DIR$/assignments/exercise15_1_thinkpython/exercise15_1.py" />
+        <option value="$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython/exercise15_1_unittest.py" />
+        <option value="$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython/exercise15_1.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="442" />
-    <option name="y" value="-18" />
-    <option name="width" value="656" />
-    <option name="height" value="496" />
+    <option name="x" value="143" />
+    <option name="y" value="-13" />
+    <option name="width" value="1132" />
+    <option name="height" value="619" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="1" id="Add" />
@@ -233,22 +278,22 @@
             <path>
               <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
-              <item name="gui experimentation" type="462c0819:PsiDirectoryNode" />
+              <item name="examples &amp; experimentation" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
               <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
-              <item name="inlämningar" type="462c0819:PsiDirectoryNode" />
+              <item name="examples &amp; experimentation" type="462c0819:PsiDirectoryNode" />
+              <item name="unittest" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
-              <item name="trash" type="462c0819:PsiDirectoryNode" />
+              <item name="programmering-2" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="programmering-1" type="b2602c69:ProjectViewProjectNode" />
-              <item name="programmering-1" type="462c0819:PsiDirectoryNode" />
-              <item name="Unittest example" type="462c0819:PsiDirectoryNode" />
+              <item name="programmering-2" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise15_1_thinkpython" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -258,19 +303,20 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../programmering-2" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\temp" />
+      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\Unittest example" />
+      <recent name="B:\Documents\programmering-1\inlämningar\dice" />
+      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\Unittest example" />
       <recent name="B:\Documents\programmering-1\gui experimentation" />
       <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\trash" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1\Unittest example" />
-      <recent name="B:\Documents\programmering-1\inlämningar\dice" />
-      <recent name="C:\Users\edu01266\Work Folders\My Documents\Årskurs 2\programmering-1" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -285,8 +331,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.test_calc2">
-    <configuration name="calc2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.exercise15_1">
+    <configuration name="chilla" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -294,11 +340,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples &amp; experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/calc2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples &amp; experimentation/chilla.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -307,19 +353,19 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi table for x" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="programmering-1" />
+    <configuration name="exercise15_1" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="programmering-2" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi table for x.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython/exercise15_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -328,7 +374,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="multi_table_between_x_y" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="filhantering" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -336,11 +382,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/examples &amp; experimentation" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/multi_table_between_x_y.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/examples &amp; experimentation/filhantering.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -349,7 +395,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="test_calc2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -357,11 +403,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/exercise15_1_thinkpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/test_calc2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/assignments/exercise15_1_thinkpython/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -370,7 +416,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="uppg.2 kalkylator med alla räknesätt" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="yalla" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="programmering-1" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -378,11 +424,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/inlämningar" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/assignments/exercise15_1_thinkpython" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/inlämningar/uppg.2 kalkylator med alla räknesätt.py" />
+      <option name="SCRIPT_NAME" value="C:\Users\edu01266\OneDrive\Årskurs 2\programmering-1\assignments\exercise15_1_thinkpython\exercise15_1.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -392,19 +438,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.multi table for x" />
-      <item itemvalue="Python.multi_table_between_x_y" />
-      <item itemvalue="Python.uppg.2 kalkylator med alla räknesätt" />
-      <item itemvalue="Python.calc2" />
-      <item itemvalue="Python.test_calc2" />
+      <item itemvalue="Python.filhantering" />
+      <item itemvalue="Python.chilla" />
+      <item itemvalue="Python.yalla" />
+      <item itemvalue="Python.test" />
+      <item itemvalue="Python.exercise15_1" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.test_calc2" />
-        <item itemvalue="Python.calc2" />
-        <item itemvalue="Python.uppg.2 kalkylator med alla räknesätt" />
-        <item itemvalue="Python.multi_table_between_x_y" />
-        <item itemvalue="Python.multi table for x" />
+        <item itemvalue="Python.exercise15_1" />
+        <item itemvalue="Python.yalla" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.chilla" />
+        <item itemvalue="Python.filhantering" />
       </list>
     </recent_temporary>
   </component>
@@ -422,35 +468,35 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 38m 25s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 39m 06s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 39m 15s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 40m 09s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 42m 42s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 42m 51s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 43m 12s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 43m 17s.xml">
-      <configuration name="Unittests in test.py" configurationId="tests" />
-    </history-entry>
     <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 43m 25s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
     </history-entry>
     <history-entry file="Unittests_in_test_py - 2019.01.09 at 15h 45m 01s.xml">
       <configuration name="Unittests in test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_circle_py - 2019.01.28 at 14h 07m 22s.xml">
+      <configuration name="Unittests in test_circle.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_mathematics_py - 2019.01.28 at 14h 07m 27s.xml">
+      <configuration name="Unittests in test_mathematics.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_rectangle_py - 2019.01.28 at 14h 07m 31s.xml">
+      <configuration name="Unittests in test_rectangle.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_circle_py - 2019.01.29 at 13h 09m 32s.xml">
+      <configuration name="Unittests in test_circle.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_circle_py - 2019.01.29 at 13h 11m 18s.xml">
+      <configuration name="Unittests in test_circle.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_mathematics_py - 2019.01.29 at 13h 11m 22s.xml">
+      <configuration name="Unittests in test_mathematics.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_rectangle_py - 2019.01.29 at 13h 11m 26s.xml">
+      <configuration name="Unittests in test_rectangle.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_test_rectangle_py - 2019.01.29 at 13h 11m 36s.xml">
+      <configuration name="Unittests in test_rectangle.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="TodoView">
@@ -467,210 +513,157 @@
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.18601191" />
+      <window_info content_ui="combo" id="Project" order="1" visible="true" weight="0.171875" />
       <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3276923" />
-      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.52008927" side_tool="true" visible="true" weight="0.30769232" />
-      <window_info anchor="bottom" id="Python Console" order="2" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.3276923" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.3065476" side_tool="true" weight="0.32307693" />
+      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49925596" weight="0.32923076" />
       <window_info anchor="bottom" id="Message" order="3" />
-      <window_info anchor="bottom" id="Find" order="4" weight="0.32923076" />
-      <window_info anchor="bottom" id="Version Control" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.4799107" weight="0.24461539" />
-      <window_info anchor="bottom" id="Debug" order="7" weight="0.39914164" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4985119" weight="0.3276923" />
+      <window_info anchor="bottom" id="Version Control" order="5" weight="0.32923076" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.69345236" weight="0.32307693" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39846155" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="10" weight="0.3276923" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49925596" weight="0.3276923" />
       <window_info anchor="right" id="R Packages" order="0" />
       <window_info anchor="right" id="R Graphics" order="1" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.171875" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="0" sideWeight="0.49925596" weight="0.3276923" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.3065476" side_tool="true" weight="0.32307693" />
+      <window_info anchor="bottom" id="Python Console" order="2" sideWeight="0.49925596" weight="0.32923076" />
+      <window_info anchor="bottom" id="Message" order="3" />
+      <window_info anchor="bottom" id="Find" order="4" sideWeight="0.4985119" weight="0.3276923" />
+      <window_info anchor="bottom" id="Version Control" order="5" />
+      <window_info anchor="bottom" id="Run" order="6" sideWeight="0.69345236" weight="0.32307693" />
+      <window_info anchor="bottom" id="Debug" order="7" weight="0.39914164" />
+      <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="10" sideWeight="0.49925596" weight="0.3276923" />
+      <window_info anchor="right" id="R Packages" order="0" />
+      <window_info anchor="right" id="R Graphics" order="1" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="2" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="3" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="4" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tuple,list,string experimentation.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/loops.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/multi table between x_y.py" />
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/quit button.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/Binds to different functions.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/buttons with class.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/Dropdown menus.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/Login Form.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/Binding functions to buttons.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/6 Dropdown menus.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/6, 7, 8 Dropdown, Toolbar, Status bar.py">
+    <entry file="file://$PROJECT_DIR$/multi table for x.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/uppg.2 kalkylator med alla räknesätt.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/calc1.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice.py" />
+    <entry file="file://$PROJECT_DIR$/Unittest Example/test.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/test_calc2.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/calc2.py" />
+    <entry file="file://$PROJECT_DIR$/gui experimentation/1_login_form.py" />
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37/Lib/tkinter/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-100">
-          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        <state relative-caret-position="103">
+          <caret line="1701" selection-start-line="1701" selection-end-line="1701" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/10 Shapes and Graphics.py">
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice/diceGUI.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/appGUI.py" />
+    <entry file="file://$PROJECT_DIR$/Unittest Example/_module_template.py" />
+    <entry file="file://$PROJECT_DIR$/Unittest Example/_test_module_template.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/test_circle.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/test_mathematics.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/test_rectangle.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/rectangle.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/circle.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/mathematics.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice_multi_compare.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice_multi.py" />
+    <entry file="file://$PROJECT_DIR$/inlämningar/Moduler och funktioner/app.py" />
+    <entry file="file://$PROJECT_DIR$/temp/fakultet.py" />
+    <entry file="file://$PROJECT_DIR$/temp/fakultet_profiling.py" />
+    <entry file="file://$PROJECT_DIR$/temp/restats" />
+    <entry file="file://$PROJECT_DIR$/number/index finder.py" />
+    <entry file="file://$PROJECT_DIR$/experimentus_maximus.py" />
+    <entry file="file://$PROJECT_DIR$/numberindex_finder.py" />
+    <entry file="file://$PROJECT_DIR$/find nums in list excercise/numberindex_finder.py" />
+    <entry file="file://$PROJECT_DIR$/find nums in list excercise/binary_search_finder.py" />
+    <entry file="file://$PROJECT_DIR$/bubble_sort.py" />
+    <entry file="file://$PROJECT_DIR$/loops.py" />
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/fakultet.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/377826687/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="147">
+          <caret line="815" column="8" selection-start-line="815" selection-start-column="8" selection-end-line="815" selection-end-column="8" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/11 Images and Icons.py">
+    <entry file="file://$PROJECT_DIR$/c#/uppgifter/golden ratio/golden.cs" />
+    <entry file="file://$PROJECT_DIR$/c#/uppgifter/golden ratio/buddycheck/golden4.py" />
+    <entry file="file://$PROJECT_DIR$/assignments/goldenratio/golden.py" />
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/newfile.txt" />
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/experimentus_maximus.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="44" selection-start-line="8" selection-start-column="44" selection-end-line="8" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/pickled_file.p">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="66" lean-forward="true" selection-start-column="66" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/test.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/random.txt">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/chilla.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi_table_between_x_y.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/9 Messagebox.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharmCE2018.2/system/python_stubs/-1935370762/builtins.py" />
-    <entry file="file://$PROJECT_DIR$/gui experimentation/4 Binds to different functions.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" lean-forward="true" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/12 Clearing entry field &amp; calc.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="26" lean-forward="true" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/2 Buttons with class.py">
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/filhantering.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
-          <caret line="12" column="72" lean-forward="true" selection-start-line="12" selection-start-column="72" selection-end-line="12" selection-end-column="72" />
+          <caret line="12" column="10" selection-start-line="12" selection-start-column="10" selection-end-line="12" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/3 Binding functions to buttons.py">
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/classes.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="30" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+        <state relative-caret-position="309">
+          <caret line="61" column="89" selection-start-line="61" selection-start-column="15" selection-end-line="61" selection-end-column="89" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/5 Quit button.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="54" selection-start-line="9" selection-start-column="54" selection-end-line="9" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice/multicore scribble.py" />
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice/threading scribble.py" />
-    <entry file="file://$PROJECT_DIR$/experimentus_maximus.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="3" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ish.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/gui experimentation/1 Login Form.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice_multi.py">
+    <entry file="file://$PROJECT_DIR$/assignments/exercise15_1_thinkpython/test.py" />
+    <entry file="file://$PROJECT_DIR$/assignments/exercise15_1_thinkpython/exercise15_1.py" />
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/unittest/_module_template.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice/diceGUI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="343">
-          <caret line="28" column="12" lean-forward="true" selection-start-line="28" selection-start-column="12" selection-end-line="28" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/Dodger/dodger.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="286" column="44" selection-start-line="286" selection-start-column="44" selection-end-line="286" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unittest example/geometry.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="20" column="16" lean-forward="true" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/uppg.1 kalkylator med alla räknesätt (hardlocked).py" />
-    <entry file="file://$PROJECT_DIR$/trash/programmering.py">
+    <entry file="file://$PROJECT_DIR$/examples &amp; experimentation/unittest/_test_module_template.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/multi table for x.py">
+    <entry file="file://$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython/exercise15_1_unittest.py" />
+    <entry file="file://$PROJECT_DIR$/../programmering-2/exercise15_1_thinkpython/exercise15_1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/uppg.2 kalkylator med alla räknesätt.py" />
-    <entry file="file://$PROJECT_DIR$/inlämningar/calc1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="119">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/dice/dice.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Unittest example/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/test_calc2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/inlämningar/calc2.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="102">
-          <caret line="6" column="16" lean-forward="true" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+        <state relative-caret-position="500">
+          <caret line="151" lean-forward="true" selection-start-line="151" selection-end-line="151" />
         </state>
       </provider>
     </entry>
