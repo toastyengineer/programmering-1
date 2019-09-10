@@ -20,3 +20,4 @@ inlämningar/Moduler och funktioner/__pycache__/circle.cpython-37.pyc
 inlämningar/Moduler och funktioner/__pycache__/mathematics.cpython-37.pyc
 inlämningar/Moduler och funktioner/__pycache__/rectangle.cpython-37.pyc
 temp/__pycache__/fakultet.cpython-37.pyc
+*.xml
